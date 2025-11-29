@@ -16,6 +16,7 @@
 .links {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 40px;
   padding: 0 20px;
 }
@@ -98,37 +99,39 @@
   margin-bottom: 40px;
 }
 
-.status-bar{
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 100px;
-margin-top: 50px;
-margin-left: 160px;
+.status-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px;
+  gap: 80px;
+  margin-top: 50px;
+  margin-left: 160px;
 }
 
-.status-bar .status p{
-width: 140px;
-height: 52px;
-font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 61px;
+.status-bar .status p {
+  width: 140px;
+  height: 52px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 61px;
 }
 
-.status-bar .status span{
-font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 60;
-font-size: 40px;
-line-height: 54px;
-color: #6B6B6B;
+.status-bar .status span {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 60;
+  font-size: 40px;
+  line-height: 54px;
+  color: #6b6b6b;
 }
 
-.status-bar .horiznotal-line{
-  background-color: #6B6B6B;
+.status-bar .horiznotal-line {
+  background-color: #6b6b6b;
   border-radius: 6px;
   width: 3px;
   height: 110px;
 }
+/* end of israa's part */
