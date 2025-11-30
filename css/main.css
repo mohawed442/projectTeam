@@ -1,3 +1,4 @@
+
 .container {
     padding: 0 40px;
     margin: 0 auto
@@ -145,3 +146,137 @@
     font-size: 23px;
     text-align: center;
 }
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+.web-icon {
+  width: 58px;
+  height: auto;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 0 20px;
+}
+.links a {
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+}
+.links a:hover {
+  font-weight: bold;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sign-up-btn {
+  padding: 12px 24px;
+  background: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.sign-up-btn span {
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  color: #fff;
+}
+
+/* home */
+
+.home-container {
+  display: flex;
+  background-color: #eaf1ff;
+  width: fit-content;
+  gap: 230px;
+}
+.home-img-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}
+.home-text h1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 150px;
+  /* or 111% */
+  color: #000000;
+}
+
+.home-text p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  color: #000000;
+  width: 540px;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+.status-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px;
+  gap: 80px;
+  margin-top: 50px;
+  margin-left: 160px;
+}
+
+.status-bar .status p {
+  width: 140px;
+  height: 52px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 61px;
+}
+
+.status-bar .status span {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 60;
+  font-size: 40px;
+  line-height: 54px;
+  color: #6b6b6b;
+}
+
+.status-bar .horiznotal-line {
+  background-color: #6b6b6b;
+  border-radius: 6px;
+  width: 3px;
+  height: 110px;
+}
+/* end of israa's part */
+
