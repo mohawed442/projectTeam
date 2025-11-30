@@ -1,12 +1,8 @@
-/* israa */
-/* navbar */
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
+.container{
+    width: 80%;
+    margin: auto;
 }
+
 
 .web-icon {
   width: 58px;
