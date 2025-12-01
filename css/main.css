@@ -2,16 +2,6 @@
     width: 80%;
     margin: auto;
 }
-        body {
-            margin: 0;
-            padding: 0;
-            background: #030718; 
-            font-family: Arial, sans-serif;
-            color: white;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
         .main-content {
             flex: 1;
             display: flex;
